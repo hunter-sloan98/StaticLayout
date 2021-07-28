@@ -1,0 +1,62 @@
+body{
+  background: url("http://wallpapercave.com/wp/pEeUsp1.jpg");
+  /* credit for background to RobinKWilliams on codepen. */
+}
+
+.searchBar {
+  float: right;
+}
+
+.logoHeader {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: xx-large;
+  color: whitesmoke;
+  padding: 15px;
+}
+
+
+
+.navBar {
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  justify-content: center;
+  border: 1px solid #999;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #999;
+  border-left: 1px solid  #999;
+}
+
+li a {
+  display: block;
+  padding: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: #999;
+}
+
+
+
+.image {
+  position:relative;
+  width:100%;
+}
+
+.buttonDisplayLeft {
+  float: left;
+  
+}
+
