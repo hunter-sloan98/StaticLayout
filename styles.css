@@ -5,6 +5,14 @@ body{
 
 .searchBar {
   float: right;
+  background-color: #999;
+  
+}
+
+.searchBar input{
+  width: 250px;
+  height: 40px;
+
 }
 
 .logoHeader {
@@ -22,7 +30,7 @@ body{
   margin-right: auto;
   display:flex;
   justify-content: center;
-  border: 1px solid #999;
+  border: .25px solid #999;
 }
 
 ul {
@@ -44,8 +52,14 @@ li a {
   padding: 20px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
+  text-decoration: none;
   font-size: 20px;
   color: #999;
+}
+
+a:hover {
+  color: whitesmoke;
+  text-decoration: none;
 }
 
 
@@ -53,10 +67,22 @@ li a {
 .image {
   position:relative;
   width:100%;
-}
-
-.buttonDisplayLeft {
-  float: left;
+  margin-top: 30px;
   
 }
 
+.badBatch {
+  position:relative;
+  width:100%;
+
+}
+
+.btn {
+  background-color: coral;
+  border: 5px soild coral;
+  width: 250px;
+  height: 75px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: x-large;
+
+}
